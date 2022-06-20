@@ -70,3 +70,97 @@ role = 'devops'
 print(role.upper())
 print(role.title())
 print(role.lower())
+
+
+# INDEXING AND SLICING #
+# indexing:
+work = 'excenit'
+print(work[0])
+print(work[0].upper())
+
+# slicing:
+print(work[0:7])
+print(work[:7])
+print(work[3:6])
+print(work[-3:-1])
+
+
+# STRING FORMATTING #
+name = 'meek'
+age = 29
+statement = 'my name is ' + name + ' ' + 'and my age is ' + str(age)
+print(statement)
+print('my name is {} and my age is {}'.format(name, age))
+print('my name is {1} and my age is {0}'.format(age, name))
+
+me = ['meek', 29]
+print(f'my name is {me[0]} and my age is {me[1]}')
+
+
+# LIST #
+myList = []
+myList = ["devops", "excenit", 2021, "March", 22, 28]
+print(myList)
+print(len(myList))
+print(myList[0])
+print(myList[0:3])
+print(dir(list))
+print(myList.pop())
+print(myList)
+myList.append(91)
+print(myList)
+myList.remove(2021)
+print(myList)
+del myList
+myList = ["devops", "excenit",["work",12,"SQL"]] # nested list
+print(myList)
+print(myList[2])
+print(myList[2][2])
+myList = ["devops", "excenit",["work",12,"SQL"],{"work":"excenit", "role":"DevOps"}]
+print(myList)
+print(myList[3]["work"])
+print(myList[3]["role"])
+
+
+# TUPLES #
+myList = ()
+myList = ("devops", "excenit", 2021, "March", 22, 28, "socs")
+print(myList)
+print(myList[0])
+print(myList[-2])
+print(dir(tuple))
+print(len(myList))
+
+
+# DICTIONARY #
+myList = {}
+myList = {"company":"excenit", "role":"DevOps", "employmentDate":"22nd March, 2021"}
+print(myList["company"])
+myList = {"company":"excenit", "role":"DevOps", "client":["abiinational","bond"]}
+print(myList["client"][0])
+myList = {"company":"excenit", "role":"DevOps", "client":{"client1":"abiinational", "client2":"bond"}}
+print(myList["client"]["client1"])
+print(myList["client"]["client2"])
+print(len(myList))
+print(len(myList["client"]))
+print(myList)
+myList["company"] = "Excenit Limited"
+print(myList)
+myList["client"]["client2"] = "GCB Bank Plc"
+print(myList)
+myList["client"]["client3"] = "Bond"
+print(myList)
+myList["client"]["client2"] = myList["client"]["client2"].lower()
+print(myList)
+myList.pop("role")
+print(myList)
+myList["client"].popitem()
+print(myList)
+
+
+# BOOLEAN #
+# True or False
+num_1 = 12
+num_2 = 20
+print(num_1 > num_2)
+print(num_1 < num_2)
