@@ -3,7 +3,7 @@ integer = 10
 double = 12.5
 string = "Hello"
 space = " "
-name = "Daniel"
+name = "meek"
 greet = string + space + name
 
 print(integer + double)
@@ -59,7 +59,7 @@ print(type(x))
 
 
 # STRINGS #
-name = 'Danni-DevOps'
+name = 'Meek-DevOps'
 print(name)
 print(type(name))
 print(type('Hello World'))
@@ -74,7 +74,7 @@ print(role.lower())
 
 # INDEXING AND SLICING #
 # indexing:
-work = 'excenit'
+work = 'IT-solutions'
 print(work[0])
 print(work[0].upper())
 
@@ -99,7 +99,7 @@ print(f'my name is {me[0]} and my age is {me[1]}')
 
 # LIST #
 myList = []
-myList = ["devops", "excenit", 2021, "March", 22, 28]
+myList = ["devops", "it-solutions", 2022, "february", 22, 28]
 print(myList)
 print(len(myList))
 print(myList[0])
@@ -112,11 +112,11 @@ print(myList)
 myList.remove(2021)
 print(myList)
 del myList
-myList = ["devops", "excenit",["work",12,"SQL"]] # nested list
+myList = ["devops", "it-solutions",["work",12,"SQL"]] # nested list
 print(myList)
 print(myList[2])
 print(myList[2][2])
-myList = ["devops", "excenit",["work",12,"SQL"],{"work":"excenit", "role":"DevOps"}]
+myList = ["devops", "it-solutions",["work",12,"SQL"],{"work":"it-solutions", "role":"DevOps"}]
 print(myList)
 print(myList[3]["work"])
 print(myList[3]["role"])
@@ -124,7 +124,7 @@ print(myList[3]["role"])
 
 # TUPLES #
 myList = ()
-myList = ("devops", "excenit", 2021, "March", 22, 28, "socs")
+myList = ("devops", "it-solutions", 2020, "May", 22, 28, "socs")
 print(myList)
 print(myList[0])
 print(myList[-2])
@@ -134,21 +134,21 @@ print(len(myList))
 
 # DICTIONARY #
 myList = {}
-myList = {"company":"excenit", "role":"DevOps", "employmentDate":"22nd March, 2021"}
+myList = {"company":"it-solutions", "role":"DevOps", "employmentDate":"2nd May, 2022"}
 print(myList["company"])
-myList = {"company":"excenit", "role":"DevOps", "client":["abiinational","bond"]}
+myList = {"company":"it-solutions", "role":"DevOps", "client":["metdev","netdev"]}
 print(myList["client"][0])
-myList = {"company":"excenit", "role":"DevOps", "client":{"client1":"abiinational", "client2":"bond"}}
+myList = {"company":"it-solutions", "role":"DevOps", "client":{"client1":"metdev", "client2":"netdev"}}
 print(myList["client"]["client1"])
 print(myList["client"]["client2"])
 print(len(myList))
 print(len(myList["client"]))
 print(myList)
-myList["company"] = "Excenit Limited"
+myList["company"] = "Meek Solutions"
 print(myList)
-myList["client"]["client2"] = "GCB Bank Plc"
+myList["client"]["client2"] = "secdev"
 print(myList)
-myList["client"]["client3"] = "Bond"
+myList["client"]["client3"] = "netdev"
 print(myList)
 myList["client"]["client2"] = myList["client"]["client2"].lower()
 print(myList)
