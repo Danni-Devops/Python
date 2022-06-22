@@ -68,7 +68,7 @@ print(num_1 >= num_2)
 print(num_1 < num_2)
 print(num_1 <= num_2)
 
-# lOGICALLY OPERATORS #
+# LOGICALLY OPERATORS #
     # 1. and
     # 2. or
     # 3. not
