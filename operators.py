@@ -91,7 +91,7 @@ print(x is y)
 print(y is x)
 print(x is not y)
 
-# IDENTITY OPERATORS #
+# MEMBERSHIP OPERATORS #
     # 1. in
     # 2. not in
 
