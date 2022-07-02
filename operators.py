@@ -78,3 +78,25 @@ print(num_1 < num_2 or num_1 <= num_2)
 print(num_1 < num_2 or num_1 <= num_2 and num_1 < num_2)
 print(num_1 < num_2 and num_1 <= num_2 and num_1 < num_2)
 print(num_1 < num_2 or num_1 <= num_2 or num_1 < num_2)
+print(not (num_1 < num_2 or num_1 <= num_2 or num_1 < num_2))
+
+# IDENTITY OPERATORS #
+    # 1. is
+    # 2. is not
+
+x = 12
+y = 10
+
+print(x is y)
+print(y is x)
+print(x is not y)
+
+# IDENTITY OPERATORS #
+    # 1. in
+    # 2. not in
+
+x = [12,10,4,2,6,20]
+print(5 in x)
+print(10 in x)
+print(10 not in x)
+print(5 not in x)
